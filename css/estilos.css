@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 25);
+}
+
+.cabecera {
+    text-align: center;
+}
+
+.cabecera__titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+
+.cabecera__enlace {
+    color: rgb(240, 93, 80);
+    text-decoration: none;
+}
+
+.cabecera__enlace:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+.menu__lista {
+    list-style: none;
+    margin: 0 0 50px;
+    padding: 0;
+    text-align: center;
+}
+
+.menu__enlace {
+    color: rgb(0, 0, 25);
+    text-decoration: none;
+}
+
+.menu__enlace:hover {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+.menu__enlace--actual {
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.articulo__cabecera {
+    text-align: center;
+}
+
+.articulo__titulo {
+    font-size: 40px;
+}
+
+.articulo__subtitulo {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.articulo__autor {
+    font-size: 22px;
+}
+
+.articulo__fecha {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.figura {
+    margin: 30px 0;
+}
+
+.figura__imagen {
+    width: 100%;
+    height: auto;
+}
+
+.figura__pie {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+main a {
+    color: rgb(240, 93, 80);
+    text-decoration: none;
+}
+
+main a:hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+.articulo__entradilla {
+    max-width: 70%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.articulo__apartado {
+    font-size: 24px;
+}
+
+.articulo__seccion p {
+    font-size: 15px;
+}
+
+
+cite, q, blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.figura__video {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+.cita__texto {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+q {
+    font-style: italic;
+    quotes: "«" "»";
+}
+
+.cita__autor {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.articulo__referencia {
+    margin: 50px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.pie {
+    padding: 50px 16px;
+    background-color: rgb(0, 0, 25);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.portada {
+    text-align: center;
+}
+
+.portada__titulo {
+    font-size: 45px;
+}
+
+.portada__periodo {
+    font-size: 20px;
+}
+
+.portada__orden {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.idiomas {
+    display: table;
+    margin: 0 auto;
+    list-style-image: url(../img/chat.png);
+    color: rgba(0, 0, 25, 0.5);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.idiomas__sublista {
+    list-style: square;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.idiomas__anio {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.fuente {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.pie__creditos {
+    font-weight: 700;
+}
+
+.pie__enlace {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.pie__enlace:hover {
+    color: rgb(240, 93, 80);
+}
+
+.premios__autor {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.premios__motivo {
+    font-size: 18px;
+}
+
+.premios__anio {
+    color: rgba(0, 0, 25, 0.5);
+    font-size: 22px;
+    font-weight: 700;
+}
